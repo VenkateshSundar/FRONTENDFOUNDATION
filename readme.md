@@ -1,1 +1,1 @@
-# My Caluclator Program using HTML CSS & JS
+# My Stone Paper Scissor using HTML CSS & JS

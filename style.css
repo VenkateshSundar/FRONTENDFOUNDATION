@@ -9,49 +9,46 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
-
+.success {
+  color: green;
+}
+.failure {
+  color: red;
+}
+#rpsgame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-style: double;
+  padding: 100px;
+  background: antiquewhite;
+}
+.heading {
+  font-size: 3rem;
+}
+#keys {
+  margin-bottom: 10px;
+  align-self: center;
+}
+#choiceLabels {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#resultLabel {
+  font-weight: bold;
+  font-size: 3rem;
+  align-self: center;
+  justify-self: center;
+  margin-top: 25px;
+}
 button:hover {
   background-color: hsl(0, 0%, 40%);
 }
 button:active {
   background-color: hsl(0, 0%, 50%);
 }
-
-.operator-btn {
-  background-color: hsl(35, 100%, 55%);
-}
-.operator-btn:hover {
-  background-color: hsl(35, 100%, 65%);
-}
-.operator-btn:active {
-  background-color: hsl(35, 100%, 75%);
-}
-
-#keys {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  padding: 25px;
-}
-
-#calculator {
-  font-family: Arial, sans-serif;
-  background-color: hsl(0, 0%, 15%);
-  border-radius: 15px;
-  max-width: 500px;
-  overflow: hidden;
-}
-
-#display {
-  width: 100%;
-  padding: 20px;
-  font-size: 5rem;
-  color: white;
-  text-align: left;
-  border: none;
-  background-color: hsl(0, 0%, 40%);
-}
-
 body {
   margin: 0px;
   display: flex;
